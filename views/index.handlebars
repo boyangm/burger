@@ -1,5 +1,9 @@
-<h1>Eat a Burger!</h1>
-<h2>Burgers to be Eaten</h2>
+
+
+<h1 style="text-align: center;">Eat a Burger!</h1>
+<img src="http://pixelartmaker.com/art/f0ffa8fe47e69e6.png" style="width: 30%; margin-left: 35%;">
+<div style="width: 50%; display: inline-block; margin: 0px; padding: 5px;">
+<h4>Burgers to be Eaten</h4>
 <div id="notDevoured">
 
 <ul >
@@ -10,7 +14,9 @@
   {{/each}}
 </ul>
 </div>
-<h2>Burgers you've devoured!</h2>
+</div>
+<div style="width: 50%; display: inline-block; margin: 0px; float: right; padding: 5px;">
+<h4>Burgers you've devoured!</h4>
 
 <div id="eaten">
 <ul>
@@ -21,6 +27,7 @@
   {{/each}}
 </ul>
 </div>
+</div>
 <div id="orderBurger">
 <h2>Add a Burger</h2>
 <form class="create-form">
@@ -29,6 +36,6 @@
     <label for="bu">Burger Name:</label>
     <input type="text" id="burgerInput" name="name">
   </div>
-  <button type="submit">Add Burger</button>
+  <button type="submit" class="btn">Add Burger</button>
 </form>
 </div>
